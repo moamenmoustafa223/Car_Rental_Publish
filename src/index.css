@@ -1,0 +1,256 @@
+
+@font-face {
+  font-family: "CircularStd-Medium";
+  src: url(../src/assets/fomts/CircularStd-Medium.woff2);
+}
+
+@font-face {
+  font-family: "CircularStd-Book";
+  src: url(../src/assets/fomts/CircularStd-Book.woff2);
+}
+@font-face {
+  font-family: "CircularStd-Bold";
+  src: url(../src/assets/fomts/CircularStd-Bold.woff2);
+}
+@font-face {
+  font-family: "CircularStd-Black";
+  src: url(../src/assets/fomts/CircularStd-Black.woff2);
+}
+* {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          font-family: "CircularStd-Medium";
+  outline: none;
+  border: none;
+  list-style: none;
+  text-decoration: none !important;
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+ 
+}
+html {
+ 
+  font-size: 16px;
+  scroll-padding-top: 8rem;
+  scroll-behavior: smooth;
+}
+.btnCustom{
+  color: #D49F15;
+
+font-size: 1.15rem;
+
+font-weight: 500;
+
+  cursor: pointer;
+}
+.btnOutLine{
+  border: #D49F15 solid 2px;
+  color: #D49F15;
+  font-size: 1rem;
+  padding-inline: 2.5rem;
+  padding-block: .65rem;
+  cursor: pointer;
+}
+.btnOutLine:hover{
+  background-color:#ba8704 ;
+  color: white;
+
+}
+.btnFilled{
+  border: #D49F15 solid 2px;
+  color: #fff;
+  background-color:#D49F15 ;
+  font-size: 1rem;
+  padding-inline: 2.5rem;
+  padding-block: .65rem;
+  cursor: pointer;
+}
+.btnFilled:hover{
+
+  background-color:#ba8704 ;
+  color: #fff;
+}
+.mainBG{
+  background-color: #D49F15 !important;
+
+}
+.mainBorder{
+  border: #D49F15 solid 1px !important;
+}
+.mainColor{
+  color: #D49F15;
+}
+
+
+
+
+
+
+
+
+
+
+
+.swiper {
+ padding-block:5rem ;
+}
+.swiper-pagination{
+  color: #111;
+  font-size: 1rem;
+  width: max-content;
+  top: 93%; 
+  left: 50%;
+  transform: translateX(-50%);
+
+  
+}
+.swiper-pagination span:first-child{
+  color: #D49F15;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.swiper-button-prev{
+  left: 44%;
+  transform: translateX(-50%);
+}
+.swiper-button-next{
+  right: 44%;
+  transform: translateX(50%);
+}
+.swiper-button-prev::after , .swiper-button-next::after{
+  font-size: 1.5rem;
+}
+.swiper-button-prev , .swiper-button-next{
+ color: #D49F15;
+ 
+top: 95%;
+padding-block: .5rem;
+padding-inline: 1.8rem;
+border-radius: 32px;
+border: #D49F15 solid 2px;
+
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px) {
+  html {
+      font-size: 14px;
+    } 
+   
+}
+
+@media (max-width: 768px) {
+  html {
+      font-size: 13px;
+    }
+    .carsPage .col-md-3 {
+      display: none;
+    }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 12px;
+  }
+
+}
+
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */

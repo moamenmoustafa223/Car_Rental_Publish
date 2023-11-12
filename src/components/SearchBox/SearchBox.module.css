@@ -1,0 +1,27 @@
+.SearchBox input::placeholder{
+  color: #8F8F8F;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 2.20619rem; 
+  text-transform: uppercase;
+}
+.SearchBox input{
+  border: 1.5px solid #ececec;
+  color: #111;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 2.20619rem; 
+
+}
+.SearchBox input:focus{
+  box-shadow: none !important;
+  border: 2px solid #D49F15;
+}
+.SearchBox button{
+
+font-size: 1.15rem;
+
+font-weight: 800;
+line-height: 2.20619rem;
+text-transform: uppercase;
+}

@@ -1,0 +1,88 @@
+.features{
+    color: #B2B2B2;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.featuresProb{
+    color: #D49F15;
+font-size: 1.2rem;
+font-weight: 700;
+}
+.currency{
+    font-size: .825rem;
+    color: #959595;
+    font-weight: 400;
+    
+}
+.discountPrice{
+    font-size: .825rem;
+ 
+}
+.discountPrice p::before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #8E8E8E;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.price{
+    color: #D49F15;
+
+font-size: 1.325rem;
+
+font-weight: 800;
+
+}
+.carName{
+    color: #111;
+
+font-size: 1.875rem;
+
+font-weight: 500;
+line-height: 2.5rem;
+}
+.providBy{
+    color: #111;
+font-size: 1.5rem;
+font-weight: 500;
+line-height: 2rem; 
+}
+.vendorName{
+    color: #7C7C7C;
+
+font-size: 1.5rem;
+
+font-weight: 500;
+line-height: 2rem; 
+}
+.mainImg{
+    border-start-start-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+.topRight{
+    border-start-end-radius: 16px;
+}
+.bottomRight{
+    border-end-end-radius: 16px;
+}
+.bottomLeft{
+    border-end-start-radius: 0px;
+}
+.topLeft{
+    border-start-start-radius: 0px;
+}
+@media (max-width: 768px) {
+    .mainImg{
+    border-radius: 16px;
+      }
+      .bottomLeft{
+        border-end-start-radius: 16px;
+    }
+    .topLeft{
+        border-start-start-radius: 16px;
+    }
+  }

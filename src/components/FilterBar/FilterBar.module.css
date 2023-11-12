@@ -1,0 +1,9 @@
+.classificationBox{
+    width: 75%;
+}
+
+@media (max-width: 991px) {
+    .classificationBox {
+        width: 100%;
+      }
+  }
